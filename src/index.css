@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+@theme {
+  --color-teal-200: #8adae3;
+  --color-cyan-500: #62e0d9;
+  --color-red-500: #ff4242;
+  --color-navy-50: #dfe4f0;
+  --color-navy-800: #202a3c;
+  --color-navy-850: #1b2330;
+  --color-navy-900: #181f2b;
+  --color-navy-950: #0b1524;
+}
